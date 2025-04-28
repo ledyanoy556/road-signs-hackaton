@@ -1,0 +1,42 @@
+#map {
+    height: 500px;
+    width: 100%;
+    border-radius: 0.25rem;
+}
+
+.status-0 { background-color: #d4edda; } /* Используется */
+.status-1 { background-color: #cce5ff; } /* Подходит */
+.status-2 { background-color: #fff3cd; } /* Нужно согласование */
+.status-3 { background-color: #f8d7da; } /* Не подходит */
+
+.table-responsive {
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.card {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.btn-group .btn.active {
+    box-shadow: 0 0 0 2px rgba(13, 110, 253, 0.5);
+    font-weight: bold;
+}
+
+.btn-group .btn {
+    border-width: 2px;
+}
+
+/* Добавим стиль для статуса "На согласовании" */
+.status-2 {
+    background-color: #fff3cd;
+}
+
+/* Стили для кнопки синхронизации */
+#syncButton:disabled {
+    opacity: 0.65;
+}
+
+#syncStatus {
+    min-height: 24px;
+}

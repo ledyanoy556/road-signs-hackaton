@@ -1,0 +1,25 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+.env
+.venv/
+*.sqlite3
+*.log
+*.pot
+*.py[co]
+*.swp
+.DS_Store
+.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+
+# Database
+*.db
+*.sqlite"
